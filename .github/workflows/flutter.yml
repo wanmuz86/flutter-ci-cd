@@ -11,7 +11,8 @@ jobs:
 
       - uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.24.3.'
+          channel: stable
+          flutter-version: '3.19.0'
 
       - name: Cache Flutter dependencies
         uses: actions/cache@v2
